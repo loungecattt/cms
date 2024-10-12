@@ -5,7 +5,7 @@ require 'classes.php';
 $posts = array();
 
 // $connect = mysqli_connect("localhost", "root", "", "base");
-$connect = mysqli_connect("localhost", "qwertyuser", "25374solnce", "qwerty");
+$connect = mysqli_connect("localhost", "user", "pass", "base");
 mysqli_set_charset($connect, "utf8");
 
 if (mysqli_connect_errno()) {
